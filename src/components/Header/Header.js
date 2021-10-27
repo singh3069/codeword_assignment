@@ -3,8 +3,8 @@ import Navigation from "./Navigation/Navigation";
 
 function Header() {
   return (
-    <div className="w-customWidth relative h-headerHeight ">
-      <p className="photon">Photon</p>
+    <div className="w-full  relative h-headerHeight font-Sora flex items-center justify-between">
+      <p className="font-bold">Photon</p>
       <Navigation />
     </div>
   );

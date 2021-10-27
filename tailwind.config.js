@@ -3,19 +3,61 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      width: {
-        customWidth: "1440px",
-      },
       height: {
         headerHeight: "120px",
+        imageOneHeight: "716px",
       },
-      // photon:{
-      //     position: "absolute",
-      //     left: '9.65%',
-      //     right: '84.58%',
-      //     top: '44.58%',
-      //     bottom: '31.25%',
-      // }
+      fontFamily: {
+        Sora: ["Sora", "sans-serif"],
+        Josefin: ["Josefin Sans"],
+      },
+
+      width: {
+        themeWidth: "823.38px",
+        textWidth: "772.23px",
+        imageOneWidth: "817.17px",
+      },
+
+      fontSize: {
+        themeFontS: [
+          "80px",
+          {
+            lineHeight: "110%",
+          },
+        ],
+
+        textFontS: [
+          "25px",
+          {
+            lineHeight: "180%",
+          },
+        ],
+
+        listFontS: [
+          "18px",
+          {
+            lineHeight: "350%",
+          },
+        ],
+
+        CurologyFontSizeNdLineHeight: [
+          "24px",
+          {
+            lineHeight: "130%",
+          },
+        ],
+
+        priceFontSize: [
+          "25px",
+          {
+            lineHeight: "180%",
+          },
+        ],
+      },
+
+      backgroundColor: {
+        backgroundCol: "#FBC761",
+      },
     },
   },
   variants: {
