@@ -23,7 +23,7 @@ function Featuredproducts() {
     },
   ];
   return (
-    <div className="w-full mb-24 mt-7">
+    <div className="w-full mb-24 mt-7 px-4 sm:px-8 md:px-12">
       <div className="flex justify-between items-center">
         <p className="font-bold text-featuredFontSize font-Sora">
           Featured Products

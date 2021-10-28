@@ -6,9 +6,9 @@ import imageOne from "./components/Images/imgOne.jpg";
 
 function App() {
   return (
-    <div className="px-4 sm:px-8 md:px-12">
+    <div className="">
       <Header />
-      <div className="w-full flex justify-between items-center mt-11">
+      <div className="w-full flex justify-between items-center mt-11 px-4 sm:px-8 md:px-12">
         <div>
           <div className="w-themeWidth h-72">
             <p className="font-Sora font-bold text-themeFontS not-italic">
@@ -30,7 +30,7 @@ function App() {
           <li className="not-italic font-normal text-listFontS">Youtube</li>
         </ul>
       </div>
-      <div className="mt-14 flex justify-between items-center">
+      <div className="mt-14 flex justify-between items-center px-4 sm:px-8 md:px-12">
         <div>
           <p>
             <small className="font-Sora text-base">category</small>
