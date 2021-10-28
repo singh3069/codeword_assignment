@@ -34,7 +34,14 @@ module.exports = {
         ],
 
         listFontS: [
-          "18px",
+          "15px",
+          {
+            lineHeight: "350%",
+          },
+        ],
+
+        nextPriceFontS: [
+          "12px",
           {
             lineHeight: "350%",
           },
@@ -53,10 +60,23 @@ module.exports = {
             lineHeight: "180%",
           },
         ],
+
+        featuredFontSize: [
+          "43px",
+          {
+            lineHeight: "110%",
+          },
+        ],
       },
 
       backgroundColor: {
         backgroundCol: "#FBC761",
+        primaryBlack: "#0F101B",
+      },
+
+      textColor: {
+        checked: "#F3CE85",
+        unChecked: "#E0E0E0",
       },
     },
   },

@@ -1,4 +1,6 @@
 import "./App.css";
+import Featuredproducts from "./components/FeaturedProducts/Featuredproducts";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import imageOne from "./components/Images/imgOne.jpg";
 
@@ -6,7 +8,7 @@ function App() {
   return (
     <div className="px-4 sm:px-8 md:px-12">
       <Header />
-      <div className="w-full flex justify-between items-center">
+      <div className="w-full flex justify-between items-center mt-11">
         <div>
           <div className="w-themeWidth h-72">
             <p className="font-Sora font-bold text-themeFontS not-italic">
@@ -31,7 +33,7 @@ function App() {
       <div className="mt-14 flex justify-between items-center">
         <div>
           <p>
-            <small className="font-Sora">category</small>
+            <small className="font-Sora text-base">category</small>
           </p>
           <p className="h-12 w-56 font-bold not-italic text-CurologyFontSizeNdLineHeight">
             Curology brand face cream for men
@@ -39,12 +41,12 @@ function App() {
           <br />
           <p className="w-28 h-7 font-Sora text-priceFontSize">$19.97</p>
           <br />
-          <button className="w-28 h-px font-Sora font-bold text-xs bg-backgroundCol bg-opacity-100 ">
+          <button className="w-28 h-8 font-Sora font-bold text-xs bg-backgroundCol bg-opacity-100 ">
             Button Primary
           </button>
           <br />
-          <br />
-          <small className="font-Josefin not-italic font-normal h-28 w-6 text-listFontS">
+
+          <small className="font-Josefin flex  justify-center  items-center not-italic font-normal h-12 w-28 text-nextPriceFontS">
             Next product
           </small>
         </div>
@@ -56,6 +58,8 @@ function App() {
           />
         </div>
       </div>
+      <Featuredproducts />
+      <Footer />
     </div>
   );
 }
